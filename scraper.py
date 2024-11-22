@@ -12,7 +12,7 @@ def scrape_website():
 
 def store_data_in_rds(titles):
     db = mysql.connector.connect(
-        host="terraform-20241121110455983200000007.cnyma4w68457.us-east-1.rds.amazonaws.com",
+        host="terraform-20241122121318538300000008.cnyma4w68457.us-east-1.rds.amazonaws.com",
         port=3306,
         user="admin",
         password="SecurePassword123!",
